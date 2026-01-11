@@ -7,12 +7,13 @@
   <link href="/src/style.css" rel="stylesheet">
 </head>
 <body>
- <header class="bg-cyan-200 p-10 text-3xl font-bold flex justify-center">
+ <header class="bg-green-200 p-10 text-3xl font-bold flex justify-center">
 <h5>Greeting Bot!🤖 </h5>
  </header>
  <main class="flex justify-center mt-8">
   <form id="form" class="flex flex-col gap-6 justify-center p-20 rounded-xl bg-cyan-200 shadow-lg transition duration-300npm">
-    <input id="inputName" class="border p-2 rounded w-100" type="text" placeholder="name" required />
+    <input id="inputName" class="border p-2 rounded w-100" type="text" pattern="[A-Za-z\s]+" 
+           title="Only letters and spaces are allowed" placeholder="name" required />
 
     
       
